@@ -1,0 +1,14 @@
+//该文件是TypeScript编译器配置文件。用来在VS Code上把typescript代码编译为JavaScript代码。
+//只要编译一次就行了。
+{
+  "compilerOptions": {
+    "target": "es5",        //编译目标：编译为ES5代码
+    "module": "amd",        //模块加载
+    "sourceMap": true       //是否创建map文件帮助调试
+  },
+  "exclude": [              //
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
+}
